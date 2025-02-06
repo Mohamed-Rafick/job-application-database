@@ -64,9 +64,6 @@ public class JobApplication
 	
 	@Column(name="updated_on", nullable=false)
 	private LocalDateTime updatedOn;
-	
-	@Column(name="updated_by")
-	private int updatedBy;
 
 	public int getApplicationId() {
 		return applicationId;
@@ -138,14 +135,6 @@ public class JobApplication
 
 	public void setUpdatedOn(LocalDateTime updatedOn) {
 		this.updatedOn = updatedOn;
-	}
-
-	public int getUpdatedBy() {
-		return updatedBy;
-	}
-
-	public void setUpdatedBy(int updatedBy) {
-		this.updatedBy = updatedBy;
 	}
 	
 	@PrePersist
