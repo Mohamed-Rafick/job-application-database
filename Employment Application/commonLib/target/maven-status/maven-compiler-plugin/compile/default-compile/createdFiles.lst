@@ -1,0 +1,12 @@
+com\employmentApp\commonLib\dtos\UserDto.class
+com\employmentApp\commonLib\enums\Status.class
+com\employmentApp\commonLib\dtos\JobDto.class
+com\employmentApp\commonLib\dtos\CertificationDto.class
+com\employmentApp\commonLib\enums\Role.class
+com\employmentApp\commonLib\App.class
+com\employmentApp\commonLib\dtos\AddressDto.class
+com\employmentApp\commonLib\dtos\ApplicationDto.class
+com\employmentApp\commonLib\dtos\ApplicantSkillsDto.class
+com\employmentApp\commonLib\enums\WorkAuthorization.class
+com\employmentApp\commonLib\enums\JobType.class
+com\employmentApp\commonLib\dtos\EducationDto.class
